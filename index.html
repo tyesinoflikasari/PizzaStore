@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Store</title>
+
+    <!-- Font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vesper+Libre:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Pizza<span>Store</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="pizza-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+
+    <section class="hero" id="home">
+      <!--section agar bg nya penuh satu layar dan punya image -->
+      <!--main untuk menyimpan elemen-elemn isi nya -->
+      <main class="content">
+        <h1>Welcome to <span>Pizza Store</span></h1>
+        <p>Discover our delicious, <span>handcrafted pizzas</span>.</p>
+        <a href="#" class="btn">Order Now</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!--  about us start -->
+    <section id="about" class="about">
+      <h2><span>About</span> us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="image/about.jpg" alt="About us" />
+        </div>
+        <div class="content">
+          <h3>Why choose pizza store?</h3>
+          <p>
+            Make Every Moment Special with Our Pizza No matter the occasion, our
+            pizza is always the perfect choice. With a wide variety of toppings
+            and sizes, we ensure that everyone enjoys their special moment with
+            full flavor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu section start -->
+    <section id="menu" class="menu">
+      <h2><span>Our</span> Menu</h2>
+      <p>
+        From Classic Dishes to Modern Creations - Discover Your Favorite Meals
+        on Our Menu
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="image/meat pizza.jpg" alt="meat" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Meat Pizza -</h3>
+          <p class="menu-card-price">$35</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="image/Pepperoni pizza.jpg"
+            alt="Pepperoni"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Pepperoni Pizza -</h3>
+          <p class="menu-card-price">$20</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="image/cheese pizza.jpg"
+            alt="Cheese"
+            class="menu-card-img"
+            height="73%"
+          />
+          <h3 class="menu-card-tittle">- Cheese Pizza -</h3>
+          <p class="menu-card-price">$25</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section end -->
+    <!-- Contact section start -->
+
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> us</h2>
+      <p>
+        team is ready to assist you. Reach out to us through the contact form
+        below, or connect with us directly via email or phone. We value your
+        input and strive to respond to all inquiries as quickly as possible.
+        Your satisfaction is our top priority, and we’re committed to providing
+        the support you need. Let’s connect and make your experience with us
+        exceptional!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255338.10594933332!2d101.27600804800348!3d0.5137890652875526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab80690ee7b1%3A0x94dde92c3823dbe4!2sPekanbaru%2C%20Kota%20Pekanbaru%2C%20Riau!5e0!3m2!1sid!2sid!4v1723824354954!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Your Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Enter your phone number" />
+          </div>
+
+          <button type="submit" class="btn">Send us a message...</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="social"></div>
+      <a href="#" ><i data-feather ="instagram"></i></a>
+      <a href="#" ><i data-feather ="twitter"></i></a>
+      <a href="#" ><i data-feather ="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Tyesi Noflika Sari</a>. | &copy ;2024.</p>
+    </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- my Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
